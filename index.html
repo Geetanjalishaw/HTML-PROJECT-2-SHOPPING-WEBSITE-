@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>MyKart - Online Shopping</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 0;
+      scroll-behavior: smooth;
+      background-color: #f9f9f9;
+    }
+    header {
+      background-color: #2c3e50;
+      color: white;
+      padding: 20px;
+      text-align: center;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+    nav {
+      margin-top: 10px;
+    }
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    section {
+      padding: 40px 20px;
+    }
+    h2 {
+      text-align: center;
+      border-bottom: 3px solid #ccc;
+      padding-bottom: 10px;
+      color: #2c3e50;
+    }
+    .product-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+    }
+    .product {
+      width: 220px;
+      border: 1px solid #ccc;
+      padding: 10px;
+      border-radius: 8px;
+      box-shadow: 2px 2px 10px rgba(0,0,0,0.1);
+      text-align: center;
+      background-color: #fff;
+    }
+    .product img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+    .product h4, .product p {
+      margin: 10px 0;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #2c3e50;
+      color: white;
+      margin-top: 50px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>MyKart</h1>
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#clothing">Clothing</a>
+    <a href="#electronics">Electronics</a>
+    <a href="#appliances">Home Appliances</a>
+    <a href="#toys">Toys</a>
+    <a href="#footwear">Footwear</a>
+  </nav>
+</header>
+
+<section id="home">
+  <h2>Welcome to MyKart</h2>
+  <p style="text-align: center;">Your one-stop shop for everything from electronics to clothes, toys, footwear, and more!</p>
+</section>
+
+<section id="clothing">
+  <h2>Clothing</h2>
+  <div class="product-container">
+    <div class="product">
+      <img src="https://m.media-amazon.com/images/I/61R+VgQ1xxL._UY741_.jpg" alt="Men's T-shirt">
+      <h4>Men's T-shirt</h4>
+      <p>Price: ₹499</p>
+    </div>
+    <div class="product">
+      <img src="https://m.media-amazon.com/images/I/71KQXtXjYoL._UY741_.jpg" alt="Women's Kurti">
+      <h4>Women's Kurti</h4>
+      <p>Price: ₹899</p>
+    </div>
+    <div class="product">
+      <img src="https://m.media-amazon.com/images/I/81Apz0nBqOL._UY550_.jpg" alt="Kids Frock">
+      <h4>Kids Frock</h4>
+      <p>Price: ₹649</p>
+    </div>
+    <div class="product">
+      <img src="https://m.media-amazon.com/images/I/71B9gOhkykL._UX569_.jpg" alt="Men's Shirt">
+      <h4>Men's Shirt</h4>
+      <p>Price: ₹799</p>
+    </div>
+  </div>
+</section>
+
+<section id="electronics">
+  <h2>Electronics</h2>
+  <div class="product-container">
+    <div class="product">
+      <img src="https://m.media-amazon.com/images/I/71pVKH0cbnL._SL1500_.jpg" alt="Smartphone">
+      <h4>Redmi Note 12</h4>
+      <p>Price: ₹13,999</p>
+    </div>
+    <div class="product">
+      <img src="https://m.media-amazon.com/images/I/71vFKBpKakL._SL1500_.jpg" alt="Laptop">
+      <h4>HP Pavilion Laptop</h4>
+      <p>Price: ₹52,990</p>
+    </div>
+    <div class="product">
+      <img src="https://m.media-amazon.com/images/I/61UxfXTUyvL._SL1500_.jpg" alt="Earbuds">
+      <h4>boAt Airdopes 141</h4>
+      <p>Price: ₹999</p>
+    </div>
+    <div class="product">
+      <img src="https://m.media-amazon.com/images/I/71YVZpEGySL._SL1500_.jpg" alt="Smartwatch">
+      <h4>Noise Smartwatch</h4>
+      <p>Price: ₹2,499</p>
+    </div>
+  </div>
+</section>
+
+<section id="appliances">
+  <h2>Home Appliances</h2>
+  <div class="product-container">
+    <div class="product">
+      <img src="https://m.media-amazon.com/images/I/71I2Uu2+xoL._SL1500_.jpg" alt="Mixer Grinder">
+      <h4>Bajaj Mixer Grinder</h4>
+      <p>Price: ₹2,299</p>
+    </div>
+    <div class="product">
+      <img src="https://m.media-amazon.com/images/I/71E5zB1qbIL._SL1500_.jpg" alt="Microwave Oven">
+      <h4>Samsung Microwave</h4>
+      <p>Price: ₹6,990</p>
+    </div>
+    <div class="product">
+      <img src="https://m.media-amazon.com/images/I/71sk9wK4GML._SL1500_.jpg" alt="Electric Kettle">
+      <h4>Pigeon Electric Kettle</h4>
+      <p>Price: ₹749</p>
+    </div>
+    <div class="product">
+      <img src="https://m.media-amazon.com/images/I/71sG+ve77HL._SL1500_.jpg" alt="Iron">
+      <h4>Philips Dry Iron</h4>
+      <p>Price: ₹899</p>
+    </div>
+  </div>
+</section>
+
+<section id="toys">
+  <h2>Toys</h2>
+  <div class="product-container">
+    <div class="product">
+      <img src="https://m.media-amazon.com/images/I/91aFgIhPNML._SL1500_.jpg" alt="Soft Toy">
+      <h4>Teddy Bear</h4>
+      <p>Price: ₹599</p>
+    </div>
+    <div class="product">
+      <img src="https://m.media-amazon.com/images/I/71jTQ1IV5KL._SL1500_.jpg" alt="Remote Car">
+      <h4>Remote Car</h4>
+      <p>Price: ₹1,299</p>
+    </div>
+    <div class="product">
+      <img src="https://m.media-amazon.com/images/I/7120GgUKj3L._SL1500_.jpg" alt="Building Blocks">
+      <h4>Building Blocks</h4>
+      <p>Price: ₹799</p>
+    </div>
+    <div class="product">
+      <img src="https://m.media-amazon.com/images/I/81fF5d8BQ6L._SL1500_.jpg" alt="Puzzle Set">
+      <h4>Kids Puzzle Set</h4>
+      <p>Price: ₹349</p>
+    </div>
+  </div>
+</section>
+
+<section id="footwear">
+  <h2>Footwear</h2>
+  <div class="product-container">
+    <div class="product">
+      <img src="https://m.media-amazon.com/images/I/71bUU0KzVGL._UY695_.jpg" alt="Men's Shoes">
+      <h4>Campus Men's Shoes</h4>
+      <p>Price: ₹1,199</p>
+    </div>
+    <div class="product">
+      <img src="https://m.media-amazon.com/images/I/81DU8u+z0IL._UY695_.jpg" alt="Women's Heels">
+      <h4>Stylish Heels</h4>
+      <p>Price: ₹899</p>
+    </div>
+    <div class="product">
+      <img src="https://m.media-amazon.com/images/I/71ivSGR41zL._UY695_.jpg" alt="Kids Sandals">
+      <h4>Kids Sandals</h4>
+      <p>Price: ₹499</p>
+    </div>
+    <div class="product">
+      <img src="https://m.media-amazon.com/images/I/61uqUohNUqL._UY695_.jpg" alt="Men's Flip Flops">
+      <h4>Flip Flops</h4>
+      <p>Price: ₹299</p>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <p>&copy; 2025 MyKart. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
